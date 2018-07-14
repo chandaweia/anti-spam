@@ -1,0 +1,5 @@
+user = ewomail   
+password = s79M7kke3wIbA8lj
+hosts = 219.224.96.158
+dbname = ewomail  
+query = SELECT destination FROM i_aliases WHERE source='%s'

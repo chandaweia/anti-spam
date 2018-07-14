@@ -1,0 +1,5 @@
+user = ewomail
+password = 4S74n8bHRtP8NE1h
+hosts = 211.68.122.8
+dbname = ewomail
+query = SELECT email FROM i_users WHERE email='%s' and active=1
