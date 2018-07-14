@@ -1,5 +1,0 @@
-user = ewomail   
-password = 4S74n8bHRtP8NE1h
-hosts = 211.68.122.8
-dbname = ewomail  
-query = SELECT to_email FROM i_bcc_user WHERE source='%s'

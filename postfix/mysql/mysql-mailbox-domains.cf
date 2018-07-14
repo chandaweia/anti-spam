@@ -1,5 +1,0 @@
-user = ewomail   
-password = s79M7kke3wIbA8lj
-hosts = 219.224.96.158
-dbname = ewomail  
-query = SELECT 1 FROM i_domains WHERE name='%s' and active=1
