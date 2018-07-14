@@ -1,0 +1,15 @@
+(1)sendmy.sh ---should--- 
+/usr/sbin/sendmy.sh
+chmod 777 sendmy.sh
+
+(2)mailreport ---should--- 
+/home/spamd/mailreport
+
+(3)vim /etc/crontab，the following is the content of crontab
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+#send mail report at 10:40 everyday
+40 10    * * *   root    /home/spamd/mailreport/counttest.sh    
+
+(4)
